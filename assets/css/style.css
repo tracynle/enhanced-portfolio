@@ -16,7 +16,7 @@ body {
 
 #landing {
   height: 100vh;
-  background-image: url('background-background-image-clouds-1054289.jpg');
+  background-image: url('../images/background-background-image-clouds-1054289.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -50,9 +50,6 @@ body {
   border-radius: 50%;
 }
 
-#intro {
-  background-image: url("Wallpaper-Cute-Gold-Rose.jpg");
-}
 
 
 .footer-section {
