@@ -1,231 +1,128 @@
-/* Core Styles */
-
 body {
-    margin: 0;
-    font-family: "Calibre", helvetica;
-    background: #9A8C98;
-    color: #333;
-    font-size: 1.1em;
-    line-height: 1.5;
-    text-align: center;
-  }
+  background-color: #212121;
   
-  img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  #brand-name, #navList {
-    color: black;
-  }
-  h1,
-  h2,
-  h3,
-  header {
-    margin: 0;
-    padding: 2em 0px;
-    font-family: "Begum-Regular", serif;
-    letter-spacing: 6px;
-    font-weight: normal;
-    text-transform: uppercase;
-    line-height: 64px;
-  }
+}
+.brand-logo {
+  color: #212121;
+  font-family: 'Homemade Apple', cursive;
   
-  p {
-    margin: 0;
-    padding: 1em 0;
-    font-family: "adobe-garamond-pro", serif;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 30px
-  }
-  
-  .btn {
-    display: inline-block;
-    background: #fff;
-    color: #333;
-    text-decoration: none;
-    padding: 1em 2em;
-    border: 2px solid #666;
-    margin: 0.5em 0;
-    padding: 1px 20px;
-  }
-  
-  .btn:hover {
-    background: #eaeaea;
-    color: #333;
-  }
-  
-  /* Header Showcase */
-  header .header-name {
-    display: inline-block;
-    text-emphasis: none;
-    background: #fff;
-   
-  }
-  #showcase {
-    min-height: 450px;
-    color: #fff;
-    text-align: center;
-  }
-  
-  #showcase .bg-image {
-    position: absolute;
-    background: #333 url("../images/beverage-books-caffeine-904616\ copy.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 450px;
-    z-index: -1;
-    opacity: 0.9;
-  }
-  
-  #showcase h1 {
-    padding-top: 100px;
-    padding-bottom: 0;
-  }
-  
-  #showcase .content-wrap,
-  #section-a .content-wrap {
-    padding: 0 1.5em;
-  }
-  
-  /* Section A */
-  
-  #section-a {
-    background: #eaeaea;
-    color: #333;
-    padding-bottom: 2em;
-  }
-  
-  /* Section B */
-  
-  #section-b {
-    padding: 2em 1em 1em;
-  }
-  
-  #section-b ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  #section-b li {
-    margin-bottom: 1em;
-    background: #fff;
-    color: #333;
-  }
-  
-  .card-content {
-    padding: 1.5em;
-  }
-  
-  /* Section C */
-  
-  #section-c {
-    background: #fff;
-    color: #333;
-    padding: 2em;
-  }
-  
-  /* Section D / Boxes */
-  
-  #section-d .box {
-    padding: 2em;
-    color: #fff;
-  }
-  
-  #section-d .box:first-child {
-    background: #9A8C98;
-  }
-  
-  /* Footer */
-  
-  /* #main-footer {
-    padding: 1em;
-    background: #fff;
-    color: #333;
-    text-align: center;
-  }
-   */
-  
- 
+}
 
-/* Contact Form */
-.contact-form {
-  width: 20%;
-  margin-left: 2%;
+.nav-background {
+  color: white ;
+}
+
+
+
+#landing {
+  height: 100vh;
+  background-image: url('background-background-image-clouds-1054289.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -1;
+  
+  
+}
+
+
+#mainText{
+  margin-top: 40vh;
+  font-family: 'Homemade Apple', cursive;
+  font-weight: 500;
+  letter-spacing: 10px;
+  padding-left: 10px;
+
+  
+}
+
+.icon-header  {
+  margin-top: 15vh;
+
+ 
+}
+.nav-icon {
+  background-color: none;
+}
+
+#profile-pic {
+  border-radius: 50%;
+}
+
+#intro {
+  background-image: url("Wallpaper-Cute-Gold-Rose.jpg");
+}
+
+
+.footer-section {
+  color: black;
+}
+
+
+/* ---------------------------------- */
+
+/* Centered Menu Link */
+.topnav {
+  position: relative;
+  /* overflow: hidden; */
+  background-color: none;
+  /* position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s; */
+  font-family: 'Homemade Apple', cursive;
+
+}
+
+.topnav a {
   float: left;
+  color: black;
+  text-align: center;
+  padding: 31px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
-.contact-form .title {
-  font-size: 1.5em;
-  font-family: "Begum-Regular", serif;
-  font-weight: 300;
-  color: #fff;
-  margin: 14% 7%;
+
+.topnav a:hover {
+  background-color:#f5f5f5;
+  color: black;
+  
 }
-.contact-form .subtitle {
-  font-size: 1.2em;
-  font-weight: 400;
-  margin: 0 4% 5% 8%;
+
+
+.topnav a.active {
+  background-color: none;
+  color: #424242;
 }
-.contact-form input,
-.contact-form textarea {
-  width: 350px;
-  padding: 3%;
-  margin: 2% 8%;
-  color: #242424;
-  border: 1px solid #B7B7B7;
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.contact-form input::placeholder,
-.contact-form textarea::placeholder {
-  color: #242424;
+
+.topnav-right {
+  float: right;
 }
-.contact-form .btn-send {
-  background: rgb(237, 197, 136);
-  width: 150px;
-  height: 40px;
-  color: #FFFFFF;
-  font-weight: 700;
-  margin: 2% 8%;
-  border: none;
-}
-  
-  /* Media Queries */
-  
-  @media (min-width: 700px) {
-    .grid {
-      display: grid;
-      grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
-    }
-  
-    #section-a .content-text {
-      columns: 2;
-      column-gap: 2em;
-    }
-  
-    #section-a .content-text p {
-      padding-top: 0;
-    }
-  
-    .content-wrap,
-    #section-b ul {
-      grid-column: 2/4;
-    }
-  
-    .box,
-    #main-footer div {
-      grid-column: span 2;
-    }
-  
-    #section-b ul {
-      display: flex;
-      justify-content: space-around;
-    }
-  
-    #section-b li {
-      width: 31%;
-    }
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
   }
   
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+
+/* --------------------------------- */
+
