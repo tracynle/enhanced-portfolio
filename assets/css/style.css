@@ -16,17 +16,17 @@ body, html {
 
 }
 .bgimg-1 {
-  background-image: url("../images/background-background-image-clouds-1054289.jpg");
+  background-image: url("../images/IMG_2954.jpg");
   min-height: 100%;
 }
 
 .bgimg-2 {
-  background-image: url("../images/IMG_2514.jpg");
+  background-image: url("../images/DLF_2018-01-1.jpg");
   min-height: 400px;
 }
 
 .bgimg-3 {
-  background-image: url("../images/Gol_Pen_Marble_Book.jpg");
+  background-image: url("../images/DLF_2018-03-5.jpg");
   min-height: 400px;
 }
 
@@ -90,14 +90,8 @@ columns: #f7f7f7;
 /* Centered Menu Link */
 .topnav {
 position: relative;
-/* overflow: hidden; */
 background-color: none;
-/* position: fixed;
-top: 0;
-width: 100%;
-display: block;
-transition: top 0.3s; */
-font-family: 'Homemade Apple', cursive;
+font: 400 15px/1.8 "Lato", sans-serif;
 
 }
 
