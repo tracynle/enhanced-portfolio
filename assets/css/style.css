@@ -1,125 +1,155 @@
-body {
-  background-color: #212121;
-  
-}
-.brand-logo {
-  color: #212121;
-  font-family: 'Homemade Apple', cursive;
-  
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
 }
 
-.nav-background {
-  color: white ;
-}
-
-
-
-#landing {
-  height: 100vh;
-  background-image: url('../images/background-background-image-clouds-1054289.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.90;
   background-attachment: fixed;
-  z-index: -1;
-  
-  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("../images/background-background-image-clouds-1054289.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("../images/IMG_2514.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("../images/Gol_Pen_Marble_Book.jpg");
+  min-height: 400px;
 }
 
 
-#mainText{
-  margin-top: 40vh;
+.caption {
   font-family: 'Homemade Apple', cursive;
+  font-size: 60px;
+  color: #424242;
+  margin-top: -10vh;
   font-weight: 500;
   letter-spacing: 10px;
   padding-left: 10px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+ 
 
+
+}
+h3 {
+  letter-spacing: 5px;
+  text-transform: lowercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+.about {
+  color: rgb(3, 2, 2); 
+  background-color:white; 
+  text-align: center; 
+  padding: 50px 80px; 
+  text-align: center;
   
 }
-
-.icon-header  {
-  margin-top: 15vh;
-
- 
+.section-header {
+  font-family: 'Homemade Apple', cursive;
+  text-align: center;
 }
-.nav-icon {
-  background-color: none;
+.portfolio {
+  text-align: center;
+  padding-top: 60px; 
+  background: none;
+
 }
-
-#profile-pic {
-  border-radius: 50%;
-}
-
-
-
-.footer-section {
-  color: black;
+.portfolio {
+background-color:transparent; 
+font-size: 25px; 
+columns: #f7f7f7;
 }
 
 
-/* ---------------------------------- */
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
 
 /* Centered Menu Link */
 .topnav {
-  position: relative;
-  /* overflow: hidden; */
-  background-color: none;
-  /* position: fixed;
-  top: 0;
-  width: 100%;
-  display: block;
-  transition: top 0.3s; */
-  font-family: 'Homemade Apple', cursive;
+position: relative;
+/* overflow: hidden; */
+background-color: none;
+/* position: fixed;
+top: 0;
+width: 100%;
+display: block;
+transition: top 0.3s; */
+font-family: 'Homemade Apple', cursive;
 
 }
 
 .topnav a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 31px 16px;
-  text-decoration: none;
-  font-size: 17px;
+float: left;
+color: black;
+text-align: center;
+padding: 31px 16px;
+text-decoration: none;
+font-size: 17px;
 }
 
 .topnav a:hover {
-  background-color:#f5f5f5;
-  color: black;
-  
+background-color:#f5f5f5;
+color: black;
+
 }
 
 
 .topnav a.active {
-  background-color: none;
-  color: #424242;
+background-color: none;
+color: #424242;
 }
 
 .topnav-centered a {
-  float: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+float: none;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
 
-.topnav-right {
-  float: right;
+/* .topnav-right {
+float: right;
+} */
+.topnav-right{
+float: right;
 }
 
 /* Responsive navigation menu (for mobile devices) */
 @media screen and (max-width: 600px) {
-  .topnav a, .topnav-right {
-    float: none;
-    display: block;
-  }
-  
-  .topnav-centered a {
-    position: relative;
-    top: 0;
-    left: 0;
-    transform: none;
-  }
+.topnav a, .topnav-right {
+  float: none;
+  display: block;
 }
 
-/* --------------------------------- */
+.topnav-centered a {
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: none;
+}
+}
+
 
