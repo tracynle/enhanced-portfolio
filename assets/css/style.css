@@ -125,6 +125,8 @@ img {
   padding: 4em 0em 0;
   text-align: center;
 }
+
+
 #footer-header {
 
   background-color: #fbe9e7;
@@ -152,7 +154,7 @@ font: 400 15px/1.8 "Lato", sans-serif;
 
 .topnav a {
 float: left;
-color: black;
+color: #424242;
 text-align: center;
 padding: 31px 16px;
 text-decoration: none;
@@ -161,7 +163,7 @@ font-size: 17px;
 
 .topnav a:hover {
 background-color:#f5f5f5;
-color: black;
+color: #424242;
 
 }
 
