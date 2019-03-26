@@ -22,3 +22,5 @@ $(window).scroll(function() {
   EasyPeasyParallax();
 });
 });
+
+$(".button-collapse").sideNav();
