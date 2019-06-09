@@ -1,4 +1,4 @@
-# enhanced-portfolio
+# Materialize Portfolio
 
 This my first enhanced portfolio using Materialize's framework. I focused on mobile responsiveness and I implemented the classic Parallax scroll and a simple navigation bar. 
 
