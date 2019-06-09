@@ -5,23 +5,22 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Tracy Le</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Styles -->
         <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
+        <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
-        <link href="assets/images/t-favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
-
+        <!-- Favicon -->
+        <link href="assets/images/t-favicon.ico" rel="shortcut icon" type="image/x-icon"/>
     </head>
     <body>    
         <div class="navbar">
             <ul class="navbar-container white">
-
                 <li><a href="#" class="left-underline nav-button brand-logo" id="name-logo"><img src="assets/images/t-icon.png"><img src="assets/images/l-icon.png"></a></li>
-                <li class="nav-item"><a href="#section-3" class="left-underline nav-button black-text" data-scroll >Contact</a></li>
+                <li class="nav-item"><a href="#section-3" class="left-underline nav-button black-text" data-scroll>Contact</a></li>
                 <li class="nav-item"><a href="#section-2" class="left-underline nav-button black-text" data-scroll>Portfolio</a></li>
                 <li class="nav-item"><a href="#section-1" class="left-underline nav-button black-text" data-scroll>About</a></li>
             </ul>
@@ -34,11 +33,11 @@
         </div>
         <div class="row"  id="section-1">
             <div class="col s5">
-                <h5 class="header">About</h1>
+                <h5 class="header text-center">About</h1>
                 <img src="assets/images/melajolla.jpg" style="width: 300px; height:380px;" class="responsive-img">
             </div>
             <div class="col s7">
-                <h5 class="header">Hi, my name is Tracy Le</h5>
+                <h5 class="header text-center">Hi, my name is Tracy Le</h5>
                 <p class="about-intro">
                     I recently completed a 6 month Full Stack Web Development at UCSD Extension Bootcamp in May 2019. 
 
@@ -54,92 +53,150 @@
             </hgroup>
         </div>
         <div class="row">
-            <div class="col s11" id="section-2">
-                <p class="porfolio-intro">                    
-                    Below you will find my class projects I created during my program.<br>
+            <div class="col s12" id="section-2">
+                <p class="porfolio-intro">  
+                    <h5 class="header">Projects</h1>
+                  
+                    Below you will find my class projects I created during my program.<br><br>
 
-                    Languages, Libraries, and Frameworks I used: Javascript, jQuery, JSON, MySQL, 
-                    Handlebars, Sequelize, ORM, Node.js, Express.js, Passort-Session, OAuth, Ajax, 
-                    Axios, API's, React Js, Bootstrap,Materialize, and Material-UI.
+                    Languages, Libraries, and Frameworks used: <b>
+                        Javascript, jQuery, JSON, MySQL, 
+                        Handlebars, Sequelize, ORM, Node.js, Express.js, Passort-Session, OAuth, Ajax, 
+                        Axios, API's, React Js, Bootstrap, Materialize, and Material-UI.
+                    </b>
 
                 </p>
 
             </div>
         </div>
-        <div class="row">
-            <h5 class="header">Projects</h1>
-            <div class="col-3">
+        <div class="row" id="screenshot">
+            <div class="col-6">
                 <div class="card white">        
                     <div class="card-content">
-                        <span class="card-title activator black-text text-lighten-5">Star Wars RPG <i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a class="black-text text-lighten-5" href="https://tracynle.github.io/Star-Wars-RPG/">Project link</a></p>
+                        <span class="card-title activator black-text text-lighten-5" id="screenshot">Star Wars RPG <i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a class="black-text text-lighten-5" href="https://tracynle.github.io/Star-Wars-RPG/" target="_blank">View Project</a></p>
                     </div>
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="">
+                        <a href="https://tracynle.github.io/Star-Wars-RPG/" target="_blank">
+                            <img class="activator" src="assets/images/starwars.png">
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-6">
                 <div class="card white">        
                     <div class="card-content">
-                        <span class="card-title activator black-text text-lighten-5">Psychic Game<i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a class="black-text text-lighten-5" href="https://tracynle.github.io/Psychic-Game/">Project link</a></p>
+                        <span class="card-title activator black-text text-lighten-5" id="screenshot">Psychic Game<i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a class="black-text text-lighten-5" href="https://tracynle.github.io/Psychic-Game/" target="_blank">View Project</a></p>
                     </div>
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="">
+                        <a href="https://tracynle.github.io/Psychic-Game/" target="_blank">
+                            <img class="activator" src="assets/images/psychic.png">
+                        </a>
                     </div>
                 </div>            
             </div>
-            <div class="col-3">
+            <div class="col-6">
                 <div class="col-3">
                     <div class="card white">        
                         <div class="card-content">
-                            <span class="card-title activator black-text text-lighten-5">GifTastic <i class="mdi-navigation-more-vert right"></i></span>
-                            <p><a class="black-text text-lighten-5" href="https://tracynle.github.io/GifTastic/">Project link</a></p>
+                            <span class="card-title activator black-text text-lighten-5" id="screenshot">GifTastic <i class="mdi-navigation-more-vert right"></i></span>
+                            <p><a class="black-text text-lighten-5" href="https://tracynle.github.io/GifTastic/" target="_blank">View Project</a></p>
                         </div>
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="">
+                            <a href="https://tracynle.github.io/GifTastic/" target="_blank">
+                                <img class="activator" src="assets/images/giftastic.png">
+                            </a>
                         </div>
                     </div>            
                 </div> 
             </div>
         </div>
-        <div class="row">
-            <div class="col-3">
+        <div class="row" id="screenshot">
+            <div class="col-6">
                 <div class="col-3">
                     <div class="card white">        
                         <div class="card-content">
-                            <span class="card-title activator black-text text-lighten-5">Reflect<i class="mdi-navigation-more-vert right"></i></span>
-                            <p><a class="black-text text-lighten-5" href="https://mindblog.herokuapp.com">Project link</a></p>
+                            <span class="card-title activator black-text text-lighten-5" id="screenshot">Reflect<i class="mdi-navigation-more-vert right"></i></span>
+                            <p><a class="black-text text-lighten-5" href="https://mindblog.herokuapp.com" target="_blank">View Project</a></p>
                         </div>
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="">
+                            <a href="https://mindblog.herokuapp.com" target="_blank">
+                                <img class="activator" src="assets/images/reflect.png">
+                            </a>
                         </div>
                     </div>            
                 </div> 
             </div>
-            <div class="col-3">
+            <div class="col-6"  id="screenshot">
                 <div class="card white">        
                     <div class="card-content">
-                        <span class="card-title activator black-text text-lighten-5">Clicky-Game<i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a class="black-text text-lighten-5" href="https://fathomless-plateau-65663.herokuapp.com/">Project link</a></p>
+                        <span class="card-title activator black-text text-lighten-5" id="screenshot">Clicky-Game<i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a class="black-text text-lighten-5" href="https://fathomless-plateau-65663.herokuapp.com/" target="_blank">View Project</a></p>
                     </div>
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="">
+                        <a href="https://fathomless-plateau-65663.herokuapp.com/" target="_blank">
+                            <img class="activator" src="assets/images/clickygame.png">
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-6">
                 <div class="card white">        
                     <div class="card-content">
-                        <span class="card-title activator black-text text-lighten-5">Wish Maker<i class="mdi-navigation-more-vert right"></i></span>
-                        <p><a class="black-text text-lighten-5" href="https://wishmaker.herokuapp.com">Project link</a></p>
+                        <span class="card-title activator black-text text-lighten-5" id="screenshot">Wish Maker<i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a class="black-text text-lighten-5" href="https://wishmaker.herokuapp.com" target="_blank">View Project</a></p>
+                    </div>
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a href="https://wishmaker.herokuapp.com" target="_blank">
+                            <img class="activator" src="assets/images/wishmaker.png">
+                        </a>
+                    </div>
+                </div>            
+            </div>
+            
+        </div>
+        <div class="row" id="screenshot">
+            <div class="col-6">
+                <div class="col-3">
+                    <div class="card white">        
+                        <div class="card-content">
+                            <span class="card-title activator black-text text-lighten-5" id="screenshot">Eat Da Burger!<i class="mdi-navigation-more-vert right"></i></span>
+                            <p><a class="black-text text-lighten-5" href="https://peaceful-garden-48232.herokuapp.com/burgers" target="_blank">View Project</a></p>
+                        </div>
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <a href="https://peaceful-garden-48232.herokuapp.com/burgers" target="_blank">
+                                <img class="activator" src="assets/images/eatdaburger.png">
+                            </a>
+                        </div>
+                    </div>            
+                </div> 
+            </div>
+            <div class="col-6">
+                <div class="card white">        
+                    <div class="card-content">
+                        <span class="card-title activator black-text text-lighten-5" id="screenshot">Harry Potter Trivia Game<i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a class="black-text text-lighten-5" href="assets/images/triviagame.png" target="_blank">View Project</a></p>
+                    </div>
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <a href="https://tracynle.github.io/TriviaGame/" target="_blank">
+                            <img class="activator" src="assets/images/triviagame.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-3">
+                <div class="card white">        
+                    <div class="card-content">
+                        <span class="card-title activator black-text text-lighten-5" id="screenshot">Title<i class="mdi-navigation-more-vert right"></i></span>
+                        <p><a class="black-text text-lighten-5" href="">View Project</a></p>
                     </div>
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" src="">
                     </div>
                 </div>            
-            </div>
+            </div> -->
+            
         </div>
         <div class="parallax p3">
             <hgroup>
