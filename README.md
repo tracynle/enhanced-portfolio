@@ -5,4 +5,4 @@ This my first enhanced portfolio using Materialize's framework. I focused on mob
 ![Enhanced](assets/images/enhanced.png)
 
 
-# My portfolio: [click here](https://tracynle.github.io/enhanced-portfolio/)
+# My portfolio: [click here](https://tracynle.github.io/tracy-portfolio/)
