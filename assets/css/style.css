@@ -1,5 +1,5 @@
 body {
-  background-color: #fbe9e7;
+  background-color: white;
   color: #444444;
   padding: 0;
   margin: 0;
@@ -7,7 +7,6 @@ body {
   transform-style: preserve-3d;
   height: 100%;
   overflow-x: hidden;
-  font-family: "Helvetica Neue", Helvetica, arial, sans-serif; 
 }
 
 .left-underline {
@@ -38,7 +37,9 @@ body {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.left-underline:hover:before, .left-underline:focus:before, .left-underline:active:before {
+.left-underline:hover:before, 
+.left-underline:focus:before, 
+.left-underline:active:before {
   right: 0;
 }
 div.navbar {
@@ -95,20 +96,20 @@ li.active > a.nav-button {
   padding: 0;
 }
 .parallax.p1 {
-  background: url("../images/cafe-coffee-drink-6067.jpg") no-repeat fixed 50% 0;
+  background: url("../images/cleandesk.jpg") no-repeat fixed 50% 0;
   background-size: cover;
   color: #fff;
   height: 100vh;
 
 }
 .parallax.p2 {
-  background: url("../images/beautiful-beverage-black-coffee-1410226.jpg") no-repeat fixed 50% 0;
+  background: url("../images/desknotes.jpg") no-repeat fixed 50% 0;
   background-size: cover;
   color: #fff;
-  height: 70vh;
+  height: 60vh;
 }
 .parallax.p3 {
-  background: url("../images/IMG_2954_square.jpg") no-repeat fixed 70% 0;
+  background: url("../images/contactdesk.jpg") no-repeat fixed 70% 0;
   background-size: cover;
   color: #fff;
   height: 70vh;
@@ -136,10 +137,7 @@ hgroup{
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  color: #fff;
-  border: 5px solid #fff;
-  padding: .5em 3em;
-  background-color: rgba(0,0,0,.2);
+  color: black;
   z-index: 2;
   letter-spacing: 4px;
 }
@@ -201,6 +199,7 @@ footer p {
 .portfolio-intro {
   font-size: 20px;
   font-family: Helvetica, arial, sans-serif;
+  height: 50vh;
 }
 #section-1 {
   font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
@@ -223,110 +222,20 @@ footer p {
   font-size: 20px;
 }
 .header {
-  font-family: 'Homemade Apple', cursive;
+  font-family: 'Copse', serif;
   font-size: 35px;
   text-align: center;
-  margin-bottom: 20px;
+  letter-spacing: 15px;
+}
+.header-about {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 15px;
 }
 #screenshot {
   font-weight: bold;
   text-align: center;
 }
 
-/* Carousel ======================================*/
-img {
-  vertical-align: middle;
-}
-
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-  position: relative;
-  
-}
-.container-slide {
-  padding-right: 0;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* Container for image text */
-.caption-container {
-  text-align: center;
-  background-color: #222;
-  padding: 25px 40px;
-  color: white;
-
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
-
-#slide-thumbnail {
-  width: 100%;
-  min-height: 0;
-}
+/* ========== */
