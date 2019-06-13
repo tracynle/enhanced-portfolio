@@ -17,7 +17,7 @@
         <link href="assets/images/t-favicon.ico" rel="shortcut icon" type="image/x-icon"/>
     </head>
     <body>    
-        <div class="navbar">
+        <div class="navbar navbar-fixed">
             <ul class="navbar-container white">
                 <li><a href="#" class="left-underline nav-button brand-logo" id="name-logo"><img src="assets/images/t-icon.png"><img src="assets/images/l-icon.png"></a></li>
                 <li class="nav-item"><a href="#section-3" class="left-underline nav-button black-text" data-scroll>Contact</a></li>
@@ -52,77 +52,20 @@
                 <h1 class="header">Portfolio</h1>
             </hgroup>
         </div>
-        <!-- <div class="row">
-        </div> -->
-                <div class="col s12" id="section-2">
-                    <!-- <p class="porfolio-intro">                    
-                        Languages, Libraries, and Frameworks used: <b>
-                            Javascript, jQuery, JSON, MySQL, 
-                            Handlebars, Sequelize, ORM, Node.js, Express.js, Passort-Session, OAuth, Ajax, 
-                            Axios, API's, React Js, Bootstrap, Materialize, and Material-UI.
-                        </b>
-    
-                    </p> -->
-                    
-                    <div class="container container-slide">
-                        <div class="mySlides">
-                            <img src="assets/images/screenshots-copy/starwars.png" style="width:100%">
-                        </div>
-            
-                        <div class="mySlides">
-                            <img src="assets/images/screenshots-copy/psychic.png" style="width:100%">
-                        </div>
-            
-                        <div class="mySlides">
-                            <img src="assets/images/screenshots-copy/giftastic.png" style="width:100%">
-                        </div>
-                            
-                        <div class="mySlides">
-                            <img src="assets/images/screenshots-copy/reflect.png" style="width:100%">
-                        </div>
-            
-                        <div class="mySlides">
-                            <img src="assets/images/screenshots-copy/clickygame.png" style="width:100%">
-                        </div>
-                            
-                        <div class="mySlides">
-                            <img src="assets/images/screenshots-copy/wishmaker.png" style="width:100%">
-                        </div>
-                            
-                        <a class="prev" onclick="plusSlides(-1)">❮</a>
-                        <a class="next" onclick="plusSlides(1)">❯</a>
-            
-                        <div class="caption-container">
-                            <p id="caption"></p>
-                        </div>
-                 
-            
-                        <div class="row" id="slide-thumbnail">
-                            <div class="column">
-                                <img class="demo cursor" src="assets/images/screenshots/starwars.png" style="width:100%" onclick="currentSlide(1)" alt="Star Wars RPG">
-                            </div>
-                            <div class="column">
-                                <img class="demo cursor" src="assets/images/screenshots/psychic.png" style="width:100%" onclick="currentSlide(2)" alt="Psychic Game">
-                            </div>
-                            <div class="column">
-                                <img class="demo cursor" src="assets/images/screenshots/giftastic.png" style="width:100%" onclick="currentSlide(3)" alt="GifTastic">
-                            </div>
-                            <div class="column">
-                                <img class="demo cursor" src="assets/images/screenshots/reflect.png" style="width:100%" onclick="currentSlide(4)" alt="Reflect">
-                            </div>
-                            <div class="column">
-                                <img class="demo cursor" src="assets/images/screenshots/clickygame.png" style="width:100%" onclick="currentSlide(5)" alt="Clicky-Game">
-                            </div>    
-                            <div class="column">
-                                <img class="demo cursor" src="assets/images/screenshots/wishmaker.png" style="width:100%" onclick="currentSlide(6)" alt="Wish Maker">
-                            </div>
-                        </div>
-                    </div>
-         
-                </div>
-            
+        <div class="row">
+            <div class="col s12" id="section-2">
+                <p class="porfolio-intro">  
+                    Languages, Libraries, and Frameworks used: <b>
+                        Javascript, jQuery, JSON, MySQL, 
+                        Handlebars, Sequelize, ORM, Node.js, Express.js, Passort-Session, OAuth, Ajax, 
+                        Axios, API's, React Js, Bootstrap, Materialize, and Material-UI.
+                    </b>
 
-        <!-- <div class="row" id="screenshot">                   
+                </p>
+
+            </div>
+        </div>
+        <div class="row" id="screenshot">
             <div class="col-6">
                 <div class="card white">        
                     <div class="card-content">
@@ -164,7 +107,7 @@
                     </div>            
                 </div> 
             </div>
-        </div> 
+        </div>
         <div class="row" id="screenshot">
             <div class="col-6">
                 <div class="col-3">
@@ -238,7 +181,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <!-- <div class="col-3">
                 <div class="card white">        
                     <div class="card-content">
                         <span class="card-title activator black-text text-lighten-5" id="screenshot">Title<i class="mdi-navigation-more-vert right"></i></span>
@@ -248,9 +191,9 @@
                         <img class="activator" src="">
                     </div>
                 </div>            
-            </div> 
+            </div> -->
             
-        </div>-->
+        </div>
         <div class="parallax p3">
             <hgroup>
                 <h1 class="header">Contact</h1>
@@ -280,37 +223,7 @@
         </footer>
     
     
-        <script>
-            var slideIndex = 1;
-            showSlides(slideIndex);
 
-            function plusSlides(n) {
-            showSlides(slideIndex += n);
-            }
-
-            function currentSlide(n) {
-            showSlides(slideIndex = n);
-            }
-
-            function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("demo");
-            var captionText = document.getElementById("caption");
-            if (n > slides.length) {slideIndex = 1}
-            if (n < 1) {slideIndex = slides.length}
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex-1].style.display = "block";
-            dots[slideIndex-1].className += " active";
-            captionText.innerHTML = dots[slideIndex-1].alt;
-            }
-        
-        </script>
         <script src="js/app.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.5.5/jquery.smooth-scroll.min.js"></script>
